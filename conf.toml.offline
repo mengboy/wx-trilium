@@ -1,0 +1,10 @@
+[app]
+    runmode="test" # test release debug
+[wx]
+    wx_token="xxx" # 微信公众号后台的令牌配置
+    self_open_ids="xxxx,xxxx" # 英文逗号分隔
+    note_prefix="note:" # 添加笔记消息前缀，用于标识
+[trilium]
+    eapi_token="xxx" # trilium eapi 令牌
+    host="http://trilium_server:8080" # trilium server
+    parent_note_id="xxxx" # 笔记节点id，创建的笔记在这个笔记目录下
